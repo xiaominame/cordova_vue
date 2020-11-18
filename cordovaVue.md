@@ -32,3 +32,27 @@
   npm install vuex --save (状态管理模块)
   npm install vue-resource --save (网络请求模块)
 ```
+
+##### 二.framework7-vue + cordova 构建app
+
+环境:nodejs、android sdk
+
+安装:
+```
+npm install -g cordova
+
+npm i framework7-cli cordova -g
+
+npm install -g ionic
+```
+
+1.创建项目
+```
+framework7 create myApp
+```
+
+2.添加cordova的组件(plugin)
+
+```
+framework7 cordova plugin add cordova-plugin-media
+```
